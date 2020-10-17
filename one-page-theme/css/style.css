@@ -283,6 +283,11 @@ background: url("../img/bg-hero.jpg");
 	margin-top: 10%;
 }
 
+#pricing h4{
+	
+	font-size: 50px;
+}
+
 
 #second_pricing_plan_article{
 	
@@ -304,13 +309,122 @@ background: url("../img/bg-hero.jpg");
 	color: var(--color-negro);
 }
 
+#purchase_button_pricing_uno:hover{
+	background-color: #FF080D;
+	border-color: #FFFFFF;
+	color: #FFFFFF;
+	
+}
+
 #btn_pricing_contact{
 	
 	margin-bottom: 2%;
+	color: #FFFFFF;
+}
+
+#btn_pricing_contact:hover{
+	
+	
+	color: #EDFF6E;
 }
 
 #second_pricing_plan_article p{
 	
 	padding-left: 17%;
 	font-size: 12px;
+}
+
+.to_work_load{
+	
+	margin-left: 3%;
+}
+
+#second_pricing_plan_article h3{
+	
+	text-align: center;
+	font-size: 50px;
+	
+}
+
+#third_pricing_plan_article p{
+	
+ color: var(--color-contenido);
+ padding-top: 5%;
+	
+}
+
+
+#purchase_button_pricing_dos{
+	
+	background-color: transparent;
+	border-color: var(--color-negro);
+	color: var(--color-negro);
+	margin-bottom: 10%;
+}
+
+#purchase_button_pricing_dos:hover{
+	background-color: #FF080D;
+	border-color: #FFFFFF;
+	color: #FFFFFF;
+	
+}
+
+#btn_pricing_contact{
+	
+	margin-bottom: 2%;
+}
+
+#third_pricing_plan_article p{
+	
+	padding-left: 17%;
+	font-size: 12px;
+}
+
+
+#third_pricing_plan_article h3{
+	
+	text-align: center;
+	font-size: 50px;
+	
+}
+
+#third_pricing_plan_article{
+	
+	margin-left: 10%;
+}
+
+#testimonials_coral p{
+	text-align: center;
+	font-size: 17px;
+	color: var(--color-subtitulo);
+}
+
+#testimonials_coral{
+	
+	text-align: center;
+	
+}
+
+#testimonials_coral h7{
+	
+	color: var(--color-contenido);
+}
+
+#testimonials_coral{
+	
+	background-color: var(--color-bg-oscuro);
+}
+
+#testimonials_coral h3{
+	
+	color: var(--color-subtitulo);
+}
+
+#testimonials_coral img{
+	
+	border-radius: 100%;
+	width: 10%;
+	height: 10%;
+	margin-top: 10%;
+	margin-bottom: 5%;
 }

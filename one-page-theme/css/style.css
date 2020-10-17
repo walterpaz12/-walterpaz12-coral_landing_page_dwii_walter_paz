@@ -485,7 +485,7 @@ background: url("../img/bg-hero.jpg");
 	margin-left: -10%;
 	margin-top: 5%;
 	border-bottom: thick;
-	border-color: var(--color-subtitulo);
+	border-color: #fff;
 }
 
 #coral_footer_second_article,#coral_footer_third_article{
@@ -495,7 +495,7 @@ background: url("../img/bg-hero.jpg");
 	color: var(--color-subtitulo);
 	margin-top: 5%;
 	border-bottom: thick;
-	border-color: var(--color-subtitulo);
+	border-color: #fff;
 }
 
 

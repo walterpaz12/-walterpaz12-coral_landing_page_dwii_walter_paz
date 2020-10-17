@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+
+--color-azul-boton: #0069d9;
+--color-azul-oscuro: #007bff;
+--color-negro: #212529;
+--color-contenido: #6c757d;
+--color-bg-claro: #f8f9fa;
+--color-bg-oscuro: #343a40;
+--color-subtitulo: #ccc;
+	
+}
+body{
+	font-family: 'Mulish', sans-serif;
+	font-size: 14px;
+	color: var(--color contenido);
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+	
+}
+
+.header-area.sticky{
+	background-color: #fff!important;
+	}
+
+
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+
+.header-area.sticky .navbar-light .navbar-nav .nav-link{
+	color: var(--color-negro);
+}
+
+.header-area.sticky .navbar-light .navbar-nav .active .nav-link{
+	color: var(--color-azul-oscuro);
+}
+
+
+.header-area.sticky .navbar-light .navbar-nav .nav-link{
+	color: var(--color-negro);
+}
+.header-area.sticky .navbar-light .navbar-nav .active .nav-link{
+	color: var(--color-azul-oscuro);
+}
+.header-area.sticky .navbar-light .navbar-brand {
+	color: var(--color-negro);
+}
+
+
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Catamaran', sans-serif;
+	color: var(--color-negro);
+}
+#hero{
+	
+background: url("../../Coral/img-coral.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	color: #FFFFFF;
+	text-align: center;
+	
+}
+
+.overlay-hero{
+	background-color: rgba(0,0,0,0.55);
+	width: 100%;
+	height: 100%;
+	padding-top: 15%;
+	
+}
+
+#hero h5{
+	
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: aliceblue;
+	
+}
+
+#hero h2{
+	
+	font-size: 4em;
+	font-weight: 600;
+	color: aliceblue;
+}
+
+#hero h3{
+	
+	font-size: 30px;
+	font-weight: 300;
+	margin-bottom: 5%;
+	color: aliceblue;
+}
+
+.hero-info {
+	margin: auto;
+	width: 60%;	
+}
+
+
+.btn-primary{
+	
+	padding: 15px,40px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 11px;
+}
+
+#why_choose_me{
+	
+	background-color: #fafafa;
+	text-align: center;
+	padding: 20px;	
+}
+
+.subtitulo
+
+{
+	font-size: 1.2em;
+	margin-bottom: 40px;
+	width:40%;
+	margin:auto;
+	letter-spacing: 1px;
+	padding: 100;
+	color: var(--color-subtitulo);
+	padding-bottom: 50px;
+	padding-top: 50px;
+	}
+
+
+
+.section {
+	padding: 7%,0;	
+}
+
+.titulo{
+	
+	font-weight: 300;
+	font-size: 3.5 em;
+	text-align: center;
+}
+
+
+#why_choose_me i{
+	
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	background-color: var(--color-gris);
+	border-radius: 100%;
+	display: block;
+	margin: auto;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 5px 2px #dddd;
+	font: normal;
+	font-size: 40px;
+	color: #2373B9;
+}
+
+#why_choose_me i:hover{
+	
+	background-color: var(--color-azul-oscuro);
+	color: #fff;
+	
+}
+
+#about_us_coral{
+	
+	background-color: var(--color-bg-claro);
+}
+
+#about_us_coral h2{
+	
+	font-weight: 300;
+	font-size: 3em; 
+}
+
+#about_us_coral .row:last-child{
+	
+	margin-top:10%;
+}
+
+#about_us_coral .row h2{
+	
+	margin-top:10%;
+}
+
+
+#about_us_coral img{
+	
+	position: relative;
+	z-index: 1;
+}
+
+#about_us_coral .marco::before{
+	
+	content: "";
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: #fff;
+	margin-top: -20px;
+	margin-left: -20px;
+	
+	
+}
+
+#about_us_coral .marco::after{
+	
+	content: "";
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100px;
+	height: 100px;
+	background-color: #fff;
+	
+}
+
+.subtitulo_services_coral{
+	font-size: 1.02em;
+	margin-bottom: 40px;
+	width:40%;
+	margin:auto;
+	letter-spacing: 1px;
+	padding: 100;
+	color: var(--color-subtitulo);
+	padding-bottom: 50px;
+	padding-top: 10px;
+		
+}
+
+#services_coral h2{
+	
+	font-size: 4em;
+	font-weight: 600;
+	color: var(--color-negro);
+	text-align: center;
+	padding-top: 50px;
+}
+
+#work_showcase{
+	text-align: center;
+	
+	}
+
+.subtitulo_work_showcase_coral{
+	font-size: 1.02em;
+	margin-bottom: 40px;
+	width:40%;
+	margin:auto;
+	letter-spacing: 1px;
+	padding: 100;
+	color: var(--color-subtitulo);
+	padding-bottom: 50px;
+	padding-top: 10px;
+		
+}
+
+#second_row{
+	margin-left: 18%;
+	margin-top: 5%;
+}
+
+

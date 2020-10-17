@@ -15,6 +15,17 @@ body{
 	font-size: 14px;
 	color: var(--color contenido);
 }
+
+footer {
+	
+	background-color: var(--color-bg-oscuro);
+	border-bottom: medium;
+	border-bottom-color: var(--color-subtitulo);
+	color: var(--color-subtitulo);
+}
+
+
+
 .header-area.sticky {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 	width: 100%;
@@ -360,9 +371,11 @@ background: url("../img/bg-hero.jpg");
 	border-color: var(--color-negro);
 	color: var(--color-negro);
 	margin-bottom: 10%;
+	
 }
 
 #purchase_button_pricing_dos:hover{
+	
 	background-color: #FF080D;
 	border-color: #FFFFFF;
 	color: #FFFFFF;
@@ -394,6 +407,7 @@ background: url("../img/bg-hero.jpg");
 }
 
 #testimonials_coral p{
+	
 	text-align: center;
 	font-size: 17px;
 	color: var(--color-subtitulo);
@@ -413,6 +427,7 @@ background: url("../img/bg-hero.jpg");
 #testimonials_coral{
 	
 	background-color: var(--color-bg-oscuro);
+	padding-bottom: 5%;
 }
 
 #testimonials_coral h3{
@@ -430,6 +445,7 @@ background: url("../img/bg-hero.jpg");
 }
 
 #contact_coral h3{
+	
 	font-size: 50px;
 	text-align: center;
 	margin-top: 5%;
@@ -442,3 +458,67 @@ background: url("../img/bg-hero.jpg");
 	color: var(--color-subtitulo);
 	
 }
+
+.btn-submit{
+	
+	background-color: var(--color-azul-oscuro);
+	align-content: center;
+	margin-left: 50%;
+	margin-bottom: 10%;
+	
+}
+
+.btn-submit:hover{
+	
+	background-color: #FF0004;
+	
+}
+
+#correo,#nombre{
+	
+     align-content: center;
+     margin-bottom: 10%;
+	}
+
+#coral_footer_first_article{
+	
+	margin-left: -10%;
+	margin-top: 5%;
+	border-bottom: thick;
+	border-color: var(--color-subtitulo);
+}
+
+#coral_footer_second_article,#coral_footer_third_article{
+	
+	margin-left: 6%;
+	font-size:8px;
+	color: var(--color-subtitulo);
+	margin-top: 5%;
+	border-bottom: thick;
+	border-color: var(--color-subtitulo);
+}
+
+
+#coral_footer_first_article h3{
+	
+color: var(--color-subtitulo);	
+}
+
+#coral_footer_second_article h4, #coral_footer_third_article h4{
+	
+color: var(--color-subtitulo);	
+	
+}
+
+#coral_footer_copyrights{
+	
+	margin-top: 5%;
+	text-align: center;
+	margin-bottom: 5%;
+	margin-left: 28%;
+	font-size: 12px;
+}
+	
+
+
+

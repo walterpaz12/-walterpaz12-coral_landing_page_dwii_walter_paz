@@ -273,4 +273,44 @@ background: url("../img/bg-hero.jpg");
 	margin-top: 5%;
 }
 
+.second_title_pricing_plan{
+	
+	text-align: center;
+}
 
+#pricing{
+	
+	margin-top: 10%;
+}
+
+
+#second_pricing_plan_article{
+	
+	margin-left: 10%;
+	
+}
+
+#second_pricing_plan_article p{
+	
+ color: var(--color-contenido);
+ padding-top: 5%;
+	
+}
+
+#purchase_button_pricing_uno{
+	
+	background-color: transparent;
+	border-color: var(--color-negro);
+	color: var(--color-negro);
+}
+
+#btn_pricing_contact{
+	
+	margin-bottom: 2%;
+}
+
+#second_pricing_plan_article p{
+	
+	padding-left: 17%;
+	font-size: 12px;
+}
